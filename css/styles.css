@@ -40,11 +40,28 @@
 
  .heading{
    text-align: center;
-   padding-top: 3%;
+   padding-top: 2%;
  }
  
  .container{
    background-color: #e6e6e6;
+   padding-bottom: 2%;
  }
+ 
+ .socials{
+   background-color: #999999;
+   align-content: center;
+   padding-left: 33%;
+   padding-top: 0.5%;
+   padding-bottom: 0.01%;
+ }
+
+ .socials p{
+	padding-left: 21%;
+	margin-top: 20px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
 
  
