@@ -21,6 +21,7 @@
   padding-top: 5%;
   padding-bottom: 5%;
   padding-right: 63%;
+  padding-left: 1%;
   
  }
 
@@ -35,6 +36,15 @@
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 63%;
+ }
+
+ .heading{
+   text-align: center;
+   padding-top: 3%;
+ }
+ 
+ .container{
+   background-color: #e6e6e6;
  }
 
  
