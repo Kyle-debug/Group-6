@@ -1,0 +1,40 @@
+.top{
+	background-image: url("images/bg1.jpg");
+	position: relative;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  padding-top: 13%;
+  padding-bottom: 13%;
+ }
+
+ .middle{
+	background-image: url("images/bg5.jpg");
+	position: relative;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  color: white;
+  background-attachment: fixed;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 63%;
+  
+ }
+
+ .end{
+	background-image: url("images/bg3.jpeg");
+	position: relative;
+  background-size: cover;
+  background-position: center;
+  text-align: right;
+  color: black;
+  background-attachment: fixed;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 63%;
+ }
+
+ 
