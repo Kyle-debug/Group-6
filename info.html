@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center;"><strong>Enter Your Details Here</strong></h1>
+        <div class="form-group">
+            <form action="/review.html" id="form">
+                <div class="row">
+                    <div class="col-md-2 form"></div>
+                    <select class="col-md-4 form-control name" type="text" id="name" name="name" placeholder="Company Name" required>
+                    <option value="">Company Name</option>
+                    <option value="Safaricom">Safaricom</option>
+                    <option value="Andela">Andela</option>
+                    <option value="Moringa">Moringa</option>
+                    </select>
+                    <br>
+                    <input class="col-md-4 form-control text" type="text" id="Position" name="Position" placeholder="Position" required>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <div class="row input">
+                    <div class="col-md-2"></div>
+                    <textarea class="form-control col-md-8 text" rows="6" name="experience" id="experience" placeholder="Experience in the workplace"></textarea>
+                </div>
+                <div class="row input">
+                    <div class="col-md-2"></div>
+                    <textarea class="form-control col-md-8 text" rows="6" name="message" id="message" placeholder="Comments..."></textarea>
+                    <div class="col-md-2"></div>
+                </div>
+                <button class="btn btn-success mx-auto d-block submit" id="button" type="submit">Submit</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
