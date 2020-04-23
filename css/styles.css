@@ -46,15 +46,15 @@
     background-color: #e6e6e6;
 }
 
-.checked {
-    color: orange;
-    size: 20px;
-}
-
-#card {
-    border-style: solid;
-    border-color: coral;
-    border-width: 5px;
+.review {
     background-image: url("images/bg1.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
     color: white;
+    background-attachment: fixed;
+    padding-top: 13%;
+    padding-bottom: 13%;
+    padding: 300px;
 }
